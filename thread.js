@@ -8,7 +8,6 @@ function thread(fun) {
             implements: [Runnable],
             methods: {
                 run: function() {
-                    // Função que será executada na nova thread
                     fun();
                 }
             }
